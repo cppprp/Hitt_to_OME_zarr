@@ -87,7 +87,7 @@ def processRaw(inputPath, start, end, _min, _max, _bit, endi):
     dimx=int(dim[-3])
     dimy=int(dim[-2])
     dimz=int(dim[-1])
-    #TODO check endian order
+
     print("x ",dimx, " y ",dimy, " z ", dimz)
     # set pointer position in none given
     if start is None:
@@ -162,7 +162,6 @@ if __name__ == '__main__':
         case _:
             bit = 'float32'
 
-    #TODO: write wiping function in
     if os.path.isdir(inputPath):
         if os.listdir(inputPath)[0].endswith('.tif') or os.listdir(inputPath)[0].endswith('.tiff'):
             data = load_tif_stack(inputPath, args.start, args.end, min_, max_, bit)

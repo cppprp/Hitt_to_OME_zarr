@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6594409-e7a2-4836-871c-b0c774f30775" name="Changes" comment="First commit, raw">
-      <change afterPath="$PROJECT_DIR$/hitt_to_omezarr_wbk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Hitt_to_OME_zarr.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Hitt_to_OME_zarr.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e6594409-e7a2-4836-871c-b0c774f30775" name="Changes" comment="Fixed imports and converters">
+      <change beforePath="$PROJECT_DIR$/hitt_to_omezarr_wbk.py" beforeDir="false" afterPath="$PROJECT_DIR$/hitt_to_omezarr_wbk.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,12 +126,21 @@
       <option name="project" value="LOCAL" />
       <updated>1729597443595</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed imports and converters">
+      <option name="closed" value="true" />
+      <created>1730923991729</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730923991729</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit, raw" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit, raw" />
+    <MESSAGE value="Fixed imports and converters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed imports and converters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
